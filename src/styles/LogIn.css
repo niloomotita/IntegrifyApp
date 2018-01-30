@@ -1,0 +1,52 @@
+.body html{
+    min-height: 100%;  
+    min-height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+.github{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    background-image: url("../img/github.svg");
+    background-size: 100% 100%;
+    border: 0;
+    color: black;
+    font-size: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none !important;
+    margin-right: 10px;
+}
+.git-wrapper{
+    cursor: pointer;
+   text-align: left;
+    margin: 10px auto;
+    padding: 5px 30px 5px 5px;
+    border: 2px solid black;
+    box-shadow: 4px 6px #888888;
+}
+.admin-btn{
+    padding:0 !important;
+    margin-top: 5px;
+}
+@media screen and (max-width:480px){
+    .git-wrapper{
+        margin: 10px auto;
+        border: 2px solid black;
+        box-shadow: 4px 6px #888888;
+        font-size: 3vh;
+    }
+    .container-fluid{
+        margin-top: 25%;
+    }
+}

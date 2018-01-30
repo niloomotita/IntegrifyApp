@@ -1,0 +1,15 @@
+.integrify-logo{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("../img/logo-integrify.svg");
+    background-size: 100% 100%;
+    border: 0;
+    color: black;
+    cursor: pointer;
+    outline: none !important;
+}
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+  }
